@@ -63,12 +63,11 @@ body {
 .input-box i {
     position: relative;
     top: -38px;
-    left: 350px;
+    left: 305px;
     font-size: 22px;
     color: #fff;
     cursor: pointer;
 }
-
 .wrapper .remember-forgot {
     display: flex;
     justify-content: space-around;

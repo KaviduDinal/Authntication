@@ -122,3 +122,23 @@ body {
     text-decoration: underline;
 
 }
+
+/*2025/09/18*/
+.media {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;  /* center the icons horizontally */
+  gap: 20px;                /* space between icons */
+}
+
+.media i {
+  font-size: 28px;          /* size of icons */
+  color: #fff;              /* white color (you can change to match your theme) */
+  cursor: pointer;          /* show pointer on hover */
+  transition: transform 0.3s, color 0.3s;
+}
+
+.media i:hover {
+  transform: scale(1.2);    /* grow effect on hover */
+  color: #ffcc00;           /* change color on hover (you can pick any) */
+}

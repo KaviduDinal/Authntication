@@ -140,5 +140,5 @@ body {
 
 .media i:hover {
   transform: scale(1.2);    /* grow effect on hover */
-  color: #ffcc00;           /* change color on hover (you can pick any) */
+  color: burlywood;           /* change color on hover (you can pick any) */
 }

@@ -17,6 +17,48 @@ body {
     background-position: center;
 }
 
+/* 🔹 Transparent + Blur Navbar */
+.navbar {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1); /* transparent white */
+  backdrop-filter: blur(10px); /* blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  position: fixed; /* stays on top */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* make sure it stays above other content */
+}
+
+.navbar .logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar .nav-links li a:hover {
+  color: #ff9800;
+}
+
+/* 🔹 Push login form down so navbar doesn’t overlap *
+
 .wrapper {
     width: 420px;
     background: transparent;

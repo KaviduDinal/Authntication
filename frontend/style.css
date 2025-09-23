@@ -56,31 +56,6 @@ body {
 .navbar .nav-links li a:hover {
   color: #ff9800;
 }
-/* Styling for the underline effect on navigation links */
-.nav-links a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s;
-    position: relative; /* This is crucial for positioning the pseudo-element */
-}
-
-/* Create the underline that is initially hidden */
-.nav-links a::after {
-    content: '';
-    position: absolute;
-    width: 0; /* Start with zero width */
-    height: 2px;
-    bottom: -5px; /* Position the underline below the text */
-    left: 0;
-    background-color: #00bcd4; /* The color of the underline */
-    transition: width 0.3s ease-in-out; /* Animate the width change */
-}
-
-/* Animate the underline to appear on hover */
-.nav-links a:hover::after {
-    width: 100%; /* Make the underline fill the full width of the link */
-}
 
 /* 🔹 Push login form down so navbar doesn’t overlap *
 

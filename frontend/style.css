@@ -447,3 +447,45 @@ body {
     grid-template-columns: 1fr;
   }
 }
+/* Notifications Page */
+.notifications {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.notification-card {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.notification-card i {
+  font-size: 36px;
+  color: #0072ff;
+  margin-right: 20px;
+}
+
+.notification-card .notification-text h3 {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.notification-card .notification-text p {
+  margin: 0 0 5px 0;
+  color: #555;
+}
+
+.notification-card .notification-text span {
+  font-size: 12px;
+  color: #999;
+}
+
+.notification-card:hover {
+  transform: translateY(-5px);
+}

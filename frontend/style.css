@@ -250,3 +250,63 @@ body {
   position: relative;
   z-index: 1;
 }
+
+/* Contact page */
+
+/* Contact Form with Animated Border */
+.contact-form {
+  width: 350px;
+  padding: 50px;
+  margin: 50px auto;
+  background: rgba(0, 0, 0, 0.6);  /* transparent dark background */
+  border: 3px solid transparent;
+  border-radius: 15px;
+  position: relative;
+  animation: borderGlow 3s linear infinite;
+  color: white;
+}
+
+/* Input Styling */
+.input-box {
+  margin-bottom: 15px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #00c6ff;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #0072ff;
+}
+
+/* Border Animation */
+@keyframes borderGlow {
+  0% {
+    border-color: #ff6a00;
+    box-shadow: 0 0 10px #ff6a00;
+  }
+  50% {
+    border-color: #00c6ff;
+    box-shadow: 0 0 20px #00c6ff;
+  }
+  100% {
+    border-color: #ff6a00;
+    box-shadow: 0 0 10px #ff6a00;
+  }
+}

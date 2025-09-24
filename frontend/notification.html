@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TownHole - Notifications</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">TownHole</div>
+    <button class="sidebar-toggle" id="sidebarToggle">
+      <i class='bx bx-menu'></i>
+    </button>
+    <ul class="nav-links">
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="index.html">Login</a></li>
+      <li><a href="reg.html">Signup</a></li>
+    </ul>
+  </nav>
+
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="logo">TownHole</div>
+    <ul class="sidebar-links">
+      <li><a href="dashboard.html"><i class='bx bx-grid-alt'></i> Dashboard</a></li>
+      <li><a href="services.html"><i class='bx bx-briefcase'></i> Services</a></li>
+      <li><a href="projects.html"><i class='bx bx-map'></i> Projects</a></li>
+      <li><a href="notifications.html" class="active"><i class='bx bx-bell'></i> Notifications</a></li>
+      <li><a href="profile.html"><i class='bx bx-user'></i> Profile</a></li>
+      <li><a href="logout.html"><i class='bx bx-log-out'></i> Logout</a></li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <header>
+      <h1>Notifications</h1>
+      <p>Stay updated with the latest project alerts and messages.</p>
+    </header>
+
+    <!-- Notifications List -->
+    <section class="notifications">
+      <div class="notification-card">
+        <i class='bx bx-info-circle'></i>
+        <div class="notification-text">
+          <h3>Project Approval Pending</h3>
+          <p>Your proposal for "Green Park Development" is awaiting approval.</p>
+          <span>2 hours ago</span>
+        </div>
+      </div>
+
+      <div class="notification-card">
+        <i class='bx bx-bell'></i>
+        <div class="notification-text">
+          <h3>New Message from Client</h3>
+          <p>Client sent a message regarding the "Residential Zone Upgrade".</p>
+          <span>5 hours ago</span>
+        </div>
+      </div>
+
+      <div class="notification-card">
+        <i class='bx bx-check-circle'></i>
+        <div class="notification-text">
+          <h3>Project Completed</h3>
+          <p>"Commercial Zone Expansion" has been marked as completed.</p>
+          <span>1 day ago</span>
+        </div>
+      </div>
+
+      <!-- Add more notifications as needed -->
+    </section>
+  </main>
+
+  <!-- Sidebar toggle script -->
+  <script>
+    const sidebar = document.getElementById('sidebar');
+    const toggleBtn = document.getElementById('sidebarToggle');
+    toggleBtn.addEventListener('click', () => {
+      sidebar.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>

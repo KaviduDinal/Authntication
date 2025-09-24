@@ -319,7 +319,7 @@ body {
   left: 0;
   width: 220px;
   height: calc(100% - 60px); /* full height minus navbar */
-  background: #0072ff;
+  background: #5f0456;
   color: white;
   padding: 20px;
 }
@@ -419,7 +419,7 @@ body {
   justify-content: center;
   gap: 10px;
   padding: 15px;
-  background: #0072ff;
+  background: #5f0456;
   color: white;
   border-radius: 12px;
   text-decoration: none;

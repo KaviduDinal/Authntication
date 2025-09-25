@@ -57,7 +57,7 @@ body {
   color: #ff9800;
 }
 
-/* 🔹 Push login form down so navbar doesn’t overlap *
+/* 🔹 Push login form down so navbar doesn’t overlap */
 
 .wrapper {
     width: 420px;
@@ -68,6 +68,17 @@ body {
     border-radius: 10px;
     padding: 30px 40px;
 
+    /* Glow / Light Frame */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4),
+                0 0 25px rgba(0, 150, 255, 0.5),
+                0 0 50px rgba(0, 150, 255, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.wrapper:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6),
+                0 0 40px rgba(0, 150, 255, 0.7),
+                0 0 80px rgba(0, 150, 255, 0.5);
 }
 
 .wrapper h1 {

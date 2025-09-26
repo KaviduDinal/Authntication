@@ -337,10 +337,12 @@ body {
 }
 
 .sidebar .logo {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   text-align: center;
+  color: #ffeb3b; /* bright logo color */
+  letter-spacing: 1px;
 }
 
 .sidebar-links {

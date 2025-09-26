@@ -329,10 +329,11 @@ body {
   top: 60px; /* below navbar */
   left: 0;
   width: 220px;
-  height: calc(100% - 60px); /* full height minus navbar */
-  background: #5f0456;
-  color: white;
+  height: calc(100% - 60px);
+  background: linear-gradient(180deg, #2e0249, #570a57, #a91079); /* New gradient */
+  color: #fff;
   padding: 20px;
+  box-shadow: 2px 0 12px rgba(0, 0, 0, 0.3);
 }
 
 .sidebar .logo {

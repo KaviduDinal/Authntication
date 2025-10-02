@@ -57,6 +57,13 @@ body {
   color: #ff9800;
 }
 
+.nav-links a.active {
+  color: #4CAF50;        /* green text */
+  font-weight: bold;     /* make it bold */
+  border-bottom: 2px solid #4CAF50;  /* underline effect */
+}
+
+
 /* 🔹 Push login form down so navbar doesn’t overlap */
 
 .wrapper {

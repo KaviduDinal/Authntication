@@ -1,62 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Logon Form make using HTML and CSS</title>
-    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
+
 <body>
-<!-- 🔹 Added Navigation Bar -->
-  <nav class="navbar">
-    <div class="logo">TownHole</div>
-    <ul class="nav-links">
-      <li><a href="Home.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="contacts.html">Contact</a></li>
-       <li><a href="reg.html">Signup</a></li>
-    </ul>
-  </nav>
+    <!-- 🔹 Added Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">TownHole</div>
+        <ul class="nav-links">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+            <li><a href="reg.html">Signup</a></li>
+            <li><a href="index.html" class="active">Login</a></li>
+        </ul>
+    </nav>
 
-<div class="wrapper">
-    <form action="">
-        <h1>Login</h1>
-        <div class="input-box">
-            <input type="text" placeholder="username" required>
-             <i class='bx bxs-user bx-flip-horizontal' ></i>
-        </div>
-        <div class="input-box">
-            <input type="password" 
-            placeholder="password" required>
-            <i class='bx bxs-lock-alt bx-flip-horizontal' ></i>
-           
-        </div>
-    <div class="remember-forgot">
-        <label> 
-            <input type="checkbox">Remember me
-        </label>
+    <div class="wrapper">
+        <form action="">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="username" required>
+                <i class='bx bxs-user bx-flip-horizontal'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="password" required>
+                <i class='bx bxs-lock-alt bx-flip-horizontal'></i>
 
-        <a href="#">Forgot Password?</a>
+            </div>
+            <div class="remember-forgot">
+                <label>
+                    <input type="checkbox">Remember me
+                </label>
+
+                <a href="#">Forgot Password?</a>
+            </div>
+
+            <button type="submit" class="btn">Login</button>
+
+            <div class="register-link">
+                <p>Already have an account? <a href="reg.html">Register</a></p>
+
+            </div>
+            <div class="media">
+                <i class='bx bxl-google'></i>
+                <i class='bx bxl-linkedin-square'></i>
+                <i class='bx bxl-facebook-circle'></i>
+
+            </div>
+
+        </form>
     </div>
-
-        <button  type="submit" class="btn">Login</button>
-
-        <div class="register-link">
-            <p>Already have an account? <a href="reg.html">Register</a></p>
-
-    </div>
-        <div class="media">
-        <i class='bx bxl-google'></i>
-        <i class='bx bxl-linkedin-square' ></i>
-        <i class='bx bxl-facebook-circle' ></i>
-
-    </div>
-
-    </form>
-</div>
 </body>
+
 </html>

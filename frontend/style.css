@@ -579,3 +579,13 @@ body {
   font-size: 1.2rem;
   color: #ccc;
 }
+
+.content {
+  position: absolute;   /* allow free placement */
+  top: 30%;             /* vertical center */
+  left: 50%;            /* horizontal center */
+  transform: translate(-50%, -50%); /* true centering */
+  color: rgb(8, 124, 76);         /* text color */
+  text-align: center;   /* center align text */
+  font-size: 25px;
+}

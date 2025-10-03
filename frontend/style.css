@@ -292,6 +292,38 @@ body {
 }
 
 /* Contact page */
+/* Style the content box */
+.content {
+  background-color: transparent;    /* Box background color */
+  color: #222;                  /* Default text color */
+  font-family: 'Poppins', sans-serif; /* Font style */
+  width: 60%;                   /* Control box length/width */
+  margin: 40px auto;            /* Center it horizontally */
+  padding: 25px;                /* Add spacing inside */
+  border-radius: 12px;          /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Soft shadow */
+  text-align: left;             /* Align text (can change to center) */
+}
+
+/* Heading style */
+.content h1 {
+  font-size: 50px;
+  color: #0066cc;    /* Heading color */
+  margin-bottom: 20px;
+}
+
+/* Paragraph style */
+.content p {
+  font-size: 18px;
+  line-height: 1.6;  /* Improve readability */
+  margin: 8px 0;
+}
+
+/* Optional: style icons (emoji in your case) */
+.content p::first-letter {
+  font-weight: bold;
+  color: #444;
+}
 
 /* Contact Form with Animated Border */
 .contact-form {

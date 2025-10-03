@@ -339,7 +339,8 @@ body {
   border-radius: 15px;                                /* rounded corners */
   margin: 40px auto;                                  /* spacing from other sections */
   max-width: 1000px;                                  /* optional max width */
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);        /* subtle shadow for depth */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);  
+  margin-top: 100px;      /* subtle shadow for depth */
 }
 
 .hero h1 {

@@ -1,37 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: url('zamber.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('zamber.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 /* 🔹 Transparent + Blur Navbar */
 .navbar {
   width: 100%;
-  background: rgba(255, 255, 255, 0.1); /* transparent white */
-  backdrop-filter: blur(10px); /* blur effect */
-  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  background: rgba(255, 255, 255, 0.1);
+  /* transparent white */
+  backdrop-filter: blur(10px);
+  /* blur effect */
+  -webkit-backdrop-filter: blur(10px);
+  /* Safari support */
   color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 12px 20px;
-  position: fixed; /* stays on top */
+  position: fixed;
+  /* stays on top */
   top: 0;
   left: 0;
-  z-index: 1000; /* make sure it stays above other content */
+  z-index: 1000;
+  /* make sure it stays above other content */
 }
 
 .navbar .logo {
@@ -58,128 +63,134 @@ body {
 }
 
 .nav-links a.active {
-  color: #4CAF50;        /* green text */
-  font-weight: bold;     /* make it bold */
-  border-bottom: 2px solid #4CAF50;  /* underline effect */
+  color: #4CAF50;
+  /* green text */
+  font-weight: bold;
+  /* make it bold */
+  border-bottom: 2px solid #4CAF50;
+  /* underline effect */
 }
 
 
 /* 🔹 Push login form down so navbar doesn’t overlap */
 
 .wrapper {
-    width: 420px;
-    background: transparent;
-    color: #f7f5f5;
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(20px);
-    border-radius: 10px;
-    padding: 30px 40px;
+  width: 420px;
+  background: transparent;
+  color: #f7f5f5;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  padding: 30px 40px;
 
-    /* Glow / Light Frame */
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4),
-                0 0 25px rgba(0, 150, 255, 0.5),
-                0 0 50px rgba(0, 150, 255, 0.3);
-    transition: box-shadow 0.3s ease-in-out;
+  /* Glow / Light Frame */
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.4),
+    0 0 25px rgba(0, 150, 255, 0.5),
+    0 0 50px rgba(0, 150, 255, 0.3);
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 .wrapper:hover {
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6),
-                0 0 40px rgba(0, 150, 255, 0.7),
-                0 0 80px rgba(0, 150, 255, 0.5);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6),
+    0 0 40px rgba(0, 150, 255, 0.7),
+    0 0 80px rgba(0, 150, 255, 0.5);
 }
 
 .wrapper h1 {
-    font-size: 36px;
-    text-align: center;
+  font-size: 36px;
+  text-align: center;
 }
 
 .wrapper .input-box {
-    width: 100%;
-    height: 50px;
-    margin: 30px 0;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
 
 
 }
 
 .input-box input {
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    border: none;
-    outline: none;
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    border-radius: 40px;
-    color: #fff;
-    font-size: 18px;
-    padding:  20px 45px 20px 20px;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  color: #fff;
+  font-size: 18px;
+  padding: 20px 45px 20px 20px;
 
 }
 
 .input-box input::placeholder {
-    color: #fff;
+  color: #fff;
 }
 
 
 .input-box i {
-    position: relative;
-    top: -38px;
-    left: 305px;
-    font-size: 22px;
-    color: #fff;
-    cursor: pointer;
+  position: relative;
+  top: -38px;
+  left: 305px;
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
 }
+
 .wrapper .remember-forgot {
-    display: flex;
-    justify-content: space-around;
-    font-size: 14.5px;
-    margin: -15px 0 15px ;
+  display: flex;
+  justify-content: space-around;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
 }
 
 .remember-forgot label input {
-    accent-color: #fff;
-    margin-right: 3px;
+  accent-color: #fff;
+  margin-right: 3px;
 
 }
 
 .remember-forgot a {
-    color: #fff;
-    text-decoration: none;
-} 
+  color: #fff;
+  text-decoration: none;
+}
+
 .remember-forgot a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-.wrapper button{
-    width: 100%;
-    height: 45px;
-    background: #fff;
-    border: none;
-    border: none;
-    outline: none;
-    border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    cursor: pointer;
-    font-size: 16px;
-    color: #333;
-    font-weight: 600;
+.wrapper button {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
 
 }
 
-.wrapper .register-link{
-    font-size: 14.5px;
-    text-align: center;
-    margin:20px 0 45px;
+.wrapper .register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 45px;
 
 }
+
 .register-link p a {
-    color: white;
-    text-decoration:none;
-    font-weight: 600;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
 
 }
 
-.register-link p a:hover{
-    text-decoration: underline;
+.register-link p a:hover {
+  text-decoration: underline;
 
 }
 
@@ -187,21 +198,29 @@ body {
 .media {
   margin-top: 15px;
   display: flex;
-  justify-content: center;  /* center the icons horizontally */
-  gap: 20px;                /* space between icons */
+  justify-content: center;
+  /* center the icons horizontally */
+  gap: 20px;
+  /* space between icons */
 }
 
 .media i {
-  font-size: 28px;          /* size of icons */
-  color: #fff;              /* white color (you can change to match your theme) */
-  cursor: pointer;          /* show pointer on hover */
+  font-size: 28px;
+  /* size of icons */
+  color: #fff;
+  /* white color (you can change to match your theme) */
+  cursor: pointer;
+  /* show pointer on hover */
   transition: transform 0.3s, color 0.3s;
 }
 
 .media i:hover {
-  transform: scale(1.2);    /* grow effect on hover */
-  color: burlywood;           /* change color on hover (you can pick any) */
+  transform: scale(1.2);
+  /* grow effect on hover */
+  color: burlywood;
+  /* change color on hover (you can pick any) */
 }
+
 /* About Page Grow Boxes */
 .about-boxes {
   display: grid;
@@ -217,7 +236,7 @@ body {
   padding: 20px;
   border-radius: 12px;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -252,8 +271,10 @@ body {
   padding: 60px 20px;
   max-width: 900px;
   margin: auto;
-  display: block;        /* forces block layout */
-  position: relative;    /* avoids overlap */
+  display: block;
+  /* forces block layout */
+  position: relative;
+  /* avoids overlap */
   z-index: 2;
 }
 
@@ -264,7 +285,8 @@ body {
   gap: 20px;
   padding: 40px;
   max-width: 1200px;
-  margin: 40px auto 80px auto; /* space between About Us and boxes */
+  margin: 40px auto 80px auto;
+  /* space between About Us and boxes */
   position: relative;
   z-index: 1;
 }
@@ -276,12 +298,15 @@ body {
   width: 350px;
   padding: 50px;
   margin: 50px auto;
-  background: rgba(0, 0, 0, 0.6);  /* transparent dark background */
+  background: rgba(0, 0, 0, 0.6);
+  /* transparent dark background */
   border: 3px solid transparent;
   border-radius: 15px;
   position: relative;
   animation: borderGlow 3s linear infinite;
   color: white;
+  margin-top: 80px;
+  margin-right: 25px;
 }
 
 /* Input Styling */
@@ -319,10 +344,12 @@ body {
     border-color: #ff6a00;
     box-shadow: 0 0 10px #ff6a00;
   }
+
   50% {
     border-color: #00c6ff;
     box-shadow: 0 0 20px #00c6ff;
   }
+
   100% {
     border-color: #ff6a00;
     box-shadow: 0 0 10px #ff6a00;
@@ -332,30 +359,45 @@ body {
 
 /* Hero / Intro Section */
 .hero {
-  background: #047b4a; /* blue gradient background */
-  color: white;                                       /* white text */
-  text-align: center;                                 /* center content */
-  padding: 100px 20px;                                /* top/bottom spacing, responsive sides */
-  border-radius: 15px;                                /* rounded corners */
-  margin: 40px auto;                                  /* spacing from other sections */
-  max-width: 1000px;                                  /* optional max width */
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);  
-  margin-top: 100px;      /* subtle shadow for depth */
+  background: #047b4a;
+  /* blue gradient background */
+  color: white;
+  /* white text */
+  text-align: center;
+  /* center content */
+  padding: 100px 20px;
+  /* top/bottom spacing, responsive sides */
+  border-radius: 15px;
+  /* rounded corners */
+  margin: 40px auto;
+  /* spacing from other sections */
+  max-width: 1000px;
+  /* optional max width */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  margin-top: 100px;
+  /* subtle shadow for depth */
 }
 
 .hero h1 {
-  font-size: 3rem;           /* large heading */
-  margin-bottom: 20px;       /* spacing below heading */
-  font-weight: 700;  
-  color: white;        /* bold */
+  font-size: 3rem;
+  /* large heading */
+  margin-bottom: 20px;
+  /* spacing below heading */
+  font-weight: 700;
+  color: white;
+  /* bold */
 }
 
 .hero p {
-  font-size: 1.3rem;         /* paragraph size */
-  line-height: 1.6;          /* spacing between lines */
-  max-width: 700px;           /* limit text width for readability */
-  margin: 0 auto;  
-  color: white;          /* center paragraph */
+  font-size: 1.3rem;
+  /* paragraph size */
+  line-height: 1.6;
+  /* spacing between lines */
+  max-width: 700px;
+  /* limit text width for readability */
+  margin: 0 auto;
+  color: white;
+  /* center paragraph */
 }
 
 
@@ -363,11 +405,13 @@ body {
 /* Sidebar */
 .sidebar {
   position: fixed;
-  top: 60px; /* below navbar */
+  top: 60px;
+  /* below navbar */
   left: 0;
   width: 220px;
   height: calc(100% - 60px);
-  background: linear-gradient(180deg, #2e0249, #570a57, #a91079); /* New gradient */
+  background: linear-gradient(180deg, #2e0249, #570a57, #a91079);
+  /* New gradient */
   color: #fff;
   padding: 20px;
   box-shadow: 2px 0 12px rgba(0, 0, 0, 0.3);
@@ -378,7 +422,8 @@ body {
   font-weight: bold;
   margin-bottom: 35px;
   text-align: center;
-  color: #ffeb3b; /* bright logo color */
+  color: #ffeb3b;
+  /* bright logo color */
   letter-spacing: 1px;
 }
 
@@ -413,8 +458,10 @@ body {
 
 /* Main Content */
 .main-content {
-  margin-left: 240px; /* sidebar width + spacing */
-  margin-top: 80px;   /* navbar height + spacing */
+  margin-left: 240px;
+  /* sidebar width + spacing */
+  margin-top: 80px;
+  /* navbar height + spacing */
   padding: 40px;
   background: #f5f7fa;
   min-height: 100vh;
@@ -497,10 +544,12 @@ body {
     padding: 20px;
   }
 
-  .stats, .links-grid {
+  .stats,
+  .links-grid {
     grid-template-columns: 1fr;
   }
 }
+
 /* Notifications Page */
 .notifications {
   display: flex;
@@ -514,7 +563,7 @@ body {
   background: white;
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
 }
 
@@ -549,7 +598,8 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
-  padding: 100px 40px; /* spacing + avoid overlap with navbar */
+  padding: 100px 40px;
+  /* spacing + avoid overlap with navbar */
   max-width: 1200px;
   margin: auto;
 }
@@ -559,7 +609,7 @@ body {
   border-radius: 15px;
   overflow: hidden;
   backdrop-filter: blur(10px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
   padding: 20px;
@@ -618,11 +668,17 @@ body {
 }
 
 .content {
-  position: absolute;   /* allow free placement */
-  top: 30%;             /* vertical center */
-  left: 50%;            /* horizontal center */
-  transform: translate(-50%, -50%); /* true centering */
-  color: rgb(8, 124, 76);         /* text color */
-  text-align: center;   /* center align text */
+  position: absolute;
+  /* allow free placement */
+  top: 30%;
+  /* vertical center */
+  left: 50%;
+  /* horizontal center */
+  transform: translate(-50%, -50%);
+  /* true centering */
+  color: rgb(8, 124, 76);
+  /* text color */
+  text-align: center;
+  /* center align text */
   font-size: 25px;
 }

@@ -367,14 +367,14 @@ body {
 }
 
 .btn:hover {
-  background: #0072ff;
+  background: #02371c;
 }
 
 /* Border Animation */
 @keyframes borderGlow {
   0% {
-    border-color: #ff6a00;
-    box-shadow: 0 0 10px #ff6a00;
+    border-color: #14bba8;
+    box-shadow: 0 0 10px #14bba8;
   }
 
   50% {
@@ -383,8 +383,8 @@ body {
   }
 
   100% {
-    border-color: #ff6a00;
-    box-shadow: 0 0 10px #ff6a00;
+    border-color: #16bd90;
+    box-shadow: 0 0 10px #16bd90;
   }
 }
 

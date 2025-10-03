@@ -329,6 +329,35 @@ body {
   }
 }
 
+
+/* Hero / Intro Section */
+.hero {
+  background: #047b4a; /* blue gradient background */
+  color: white;                                       /* white text */
+  text-align: center;                                 /* center content */
+  padding: 100px 20px;                                /* top/bottom spacing, responsive sides */
+  border-radius: 15px;                                /* rounded corners */
+  margin: 40px auto;                                  /* spacing from other sections */
+  max-width: 1000px;                                  /* optional max width */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);        /* subtle shadow for depth */
+}
+
+.hero h1 {
+  font-size: 3rem;           /* large heading */
+  margin-bottom: 20px;       /* spacing below heading */
+  font-weight: 700;  
+  color: white;        /* bold */
+}
+
+.hero p {
+  font-size: 1.3rem;         /* paragraph size */
+  line-height: 1.6;          /* spacing between lines */
+  max-width: 700px;           /* limit text width for readability */
+  margin: 0 auto;  
+  color: white;          /* center paragraph */
+}
+
+
 /* Dashboard Page */
 /* Sidebar */
 .sidebar {

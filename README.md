@@ -8,6 +8,7 @@ This is a **Simple Authentication Web Application** built using **HTML and CSS**
 - **Purpose:** To provide a simple authentication system interface including login, registration, dashboard, and profile management  
 - **Status:** Completed (Frontend Prototype)
 
+
 ---
 ## Features
 - **User Authentication Pages:** Login, Registration, and Profile  

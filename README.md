@@ -9,6 +9,7 @@ This is a **Simple Authentication Web Application** built using **HTML and CSS**
 - **Status:** Completed (Frontend Prototype)
 
 
+
 ---
 ## Features
 - **User Authentication Pages:** Login, Registration, and Profile  

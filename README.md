@@ -10,6 +10,7 @@ This is a **Simple Authentication Web Application** built using **HTML and CSS**
 
 ---
 
+
 ## Features
 - **User Authentication Pages:** Login, Registration, and Profile  
 - **Dashboard & Navigation:** Home, Dashboard, Feed, Notifications  

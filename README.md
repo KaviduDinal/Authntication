@@ -3,7 +3,6 @@
 This is a **Simple Authentication Web Application** built using **HTML and CSS**. The project demonstrates basic user interface design for authentication, user profiles, dashboards, and other related pages. It is a frontend-only prototype without backend integration, perfect for learning and showcasing UI flows.
 --
 
-
 ## Project Overview
 - **Platform:** Web application (HTML, CSS)  
 - **Purpose:** To provide a simple authentication system interface including login, registration, dashboard, and profile management  
